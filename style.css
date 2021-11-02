@@ -1,0 +1,558 @@
+#ma {
+  height: 500px;
+  background-image: url("https://media.istockphoto.com/photos/sakura-for-valentines-day-raster-picture-id1295497302?k=20&m=1295497302&s=612x612&w=0&h=StqG98-5l30fixI28slfYUKxhKrDbfh6LsRRchVWpeg=");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 660px;
+  color: black;
+  position: relative;
+  background-color: white;
+}
+.hel {
+  width: 1px;
+  height: 900px;
+  position: relative;
+  display: flex;
+
+  background-color: #ffe7e700;
+  animation-name: hel;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.paraygwl {
+  width: 450px;
+  height: 5px;
+  position: relative;
+  display: flex;
+  background-color: #ffe7e700;
+  animation-name: gwl;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes gwl {
+  from {
+    left: 400px;
+    top: 340px;
+  }
+  to {
+    left: 215px;
+    top: 340px;
+
+    background-color: #ffdede9a;
+  }
+}
+@keyframes hel {
+  from {
+    left: 200px;
+    top: 200px;
+  }
+  to {
+    left: 200px;
+    top: 340px;
+
+    background-color: #ffdede9a;
+  }
+}
+
+.firtsA {
+  position: relative;
+  animation-name: anim;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes anim {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 100px;
+    color: rgb(255, 255, 255);
+
+    font-size: 60px;
+  }
+}
+#aboutme-section {
+  margin-left: 0px;
+  background-color: white;
+}
+#main-section {
+  margin-top: 130px;
+}
+
+#art {
+  margin-top: 100px;
+}
+
+.progress {
+  width: 350px;
+  margin-left: 70px;
+}
+
+.one1 {
+  margin-left: 20px;
+  color: #0e0438;
+  font-weight: bold;
+  margin-left: 45%;
+}
+#main-section {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 60px;
+}
+#left {
+  background-color: rgba(19, 7, 16, 0.63);
+  height: 350px;
+  border-radius: 100px;
+  color: white;
+}
+/* bo bashy zmankana */
+
+.card {
+  padding: 20px;
+  margin: 20px;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #030a27;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  width: 462px;
+  background-color: wight;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.card1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #4545554f;
+  height: 52px;
+  width: 52px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-out;
+  color: #f2f8f9;
+}
+
+.card1:hover:before {
+  transform: scale(21);
+  color: azure;
+}
+
+.card1:hover {
+  color: azure;
+}
+
+#certification {
+  display: flex;
+  justify-content: center;
+}
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--veryLightGray);
+  background-color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+}
+
+h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+.box p {
+  color: var(--grayishBlue);
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+  margin-top: 100px;
+}
+.box:hover {
+  transform: scale(1.35);
+  transition: transform 0.3s ease-out;
+}
+
+@media (max-width: 450px) {
+  .box {
+    height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+    text-align: center;
+    height: 180px;
+  }
+  #ma {
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+    background-image: url("https://media.istockphoto.com/photos/sakura-for-valentines-day-raster-picture-id1295497302?k=20&m=1295497302&s=612x612&w=0&h=StqG98-5l30fixI28slfYUKxhKrDbfh6LsRRchVWpeg=");
+
+    opacity: 0.8;
+  }
+
+  .paraygwl {
+    width: 450px;
+    height: 5px;
+    position: relative;
+    display: flex;
+    background-color: #ffe7e700;
+    animation-name: gwl;
+    animation-duration: 7s;
+    animation-iteration-count: var(--red);
+    animation-fill-mode: both;
+    opacity: 1;
+  }
+
+  @keyframes gwl {
+    from {
+      left: 400px;
+      top: 250px;
+    }
+    to {
+      left: 18px;
+      top: 250px;
+
+      background-color: #ffdede9a;
+    }
+  }
+
+  .hel {
+    width: 450px;
+    height: 5px;
+    position: relative;
+    display: flex;
+    background-color: #ffe7e700;
+    animation-name: hel1;
+    animation-duration: 7s;
+    animation-iteration-count: var(--red);
+    animation-fill-mode: both;
+    opacity: 1;
+  }
+
+  @keyframes hel1 {
+    from {
+      left: -400px;
+      top: 150px;
+    }
+    to {
+      left: 18px;
+      top: 150px;
+      background-color: #ffdede9a;
+    }
+  }
+  .firtsA {
+    animation-play-state: paused;
+    color: rgb(250, 244, 244) !important;
+    font-size: 50px;
+    margin-left: 0px;
+    opacity: 1;
+  }
+  #left {
+    background-color: rgba(19, 7, 16, 0.671);
+    display: flex;
+  }
+  #art {
+    margin-top: 150px;
+  }
+  #text-center {
+    margin-left: 200px;
+  }
+  svg {
+    margin-left: 50px;
+  }
+  #certification {
+    display: block;
+
+    justify-content: center;
+  }
+  .card {
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid #ffccd2;
+}
+.red {
+  border-top: 3px solid #ffccd2;
+}
+.blue {
+  border-top: 3px solid #ffccd2;
+}
+.orange {
+  border-top: 3px solid #ffccd2;
+}
+
+h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+@media (min-width: 950px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-down {
+    position: relative;
+    top: 150px;
+  }
+  .box {
+    width: 20%;
+    transition: transform 0.2s ease-out;
+  }
+  .header p {
+    width: 30%;
+  }
+}
+
+svg {
+  height: 23rem;
+  margin-right: 4rem;
+}
+
+#envelope {
+  animation: float 2s ease-in-out infinite;
+}
+
+#star1,
+#star2,
+#star3,
+#star4,
+#star5,
+#star6 {
+  animation: blink 1s ease-in-out infinite;
+}
+#star2 {
+  animation-delay: 100ms;
+}
+#star3 {
+  animation-delay: 500ms;
+}
+#star4 {
+  animation-delay: 700ms;
+}
+#star5 {
+  animation-delay: 300ms;
+}
+#star6 {
+  animation-delay: 200ms;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  height: 100vh;
+}
+
+.title {
+  font-family: "Pacifico", cursive;
+  color: #212529;
+  font-size: 2.5rem;
+}
+
+.thick {
+  height: 3.3rem;
+  padding: 0.6rem 3rem;
+}
+
+form {
+}
+input[type="text"],
+select {
+  width: 100%;
+
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  margin: 1px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+textarea[type="submit"]:hover {
+  background-color: #45a049;
+}
+.btn.btn-primary {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  border: 0;
+  border-radius: 3rem;
+  background-image: linear-gradient(131deg, #c8e7f5, #f6d2e0, #f7d9d9, #c8e7f5);
+  background-size: 300% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover:enabled {
+  box-shadow: 0 0.5em 0.5em -0.4em #ffccd5;
+  background-size: 100% 100%;
+  transform: translateY(-0.1em);
+}
+ 
