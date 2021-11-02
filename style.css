@@ -220,10 +220,14 @@ p {
   --weight2: 400;
   --weight3: 600;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
+}
 
 body {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ruda", sans-serif;
   background-color: var(--veryLightGray);
   background-color: white;
 }
