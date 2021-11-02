@@ -79,6 +79,8 @@
 #aboutme-section {
   margin-left: 0px;
   background-color: white;
+  margin-left: 170px;
+  margin-bottom: 50px;
 }
 #main-section {
   margin-top: 130px;
@@ -175,7 +177,7 @@ p {
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .card1:before {
   content: "";
@@ -555,4 +557,6 @@ textarea[type="submit"]:hover {
   background-size: 100% 100%;
   transform: translateY(-0.1em);
 }
- 
+a {
+  color: #c73e9e;
+}
